@@ -116,7 +116,7 @@ engines:
         hook_copy_file: default
         hook_filter_publishes: default
         hook_filter_work_files: default
-        hook_scene_operation: '{self}/scene_operation_tk-3dsmax.py'
+        hook_scene_operation: default
         launch_at_startup: false
         location:
           version: v0.7.28
@@ -227,7 +227,7 @@ engines:
         hook_copy_file: default
         hook_filter_publishes: default
         hook_filter_work_files: default
-        hook_scene_operation: '{self}/scene_operation_tk-3dsmaxplus.py'
+        hook_scene_operation: default
         launch_at_startup: false
         location:
           version: v0.7.28
@@ -334,7 +334,7 @@ engines:
         hook_copy_file: default
         hook_filter_publishes: default
         hook_filter_work_files: default
-        hook_scene_operation: '{self}/scene_operation_tk-houdini.py'
+        hook_scene_operation: default
         launch_at_startup: false
         location:
           version: v0.7.28
@@ -431,9 +431,9 @@ engines:
       type: app_store
       name: tk-houdini
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     - {app_instance: tk-multi-snapshot, name: Snapshot...}
-    - {app_instance: tk-multi-workfiles, name: Shotgun Save As...}
+    - {app_instance: tk-multi-workfiles2, name: File Save...}
     - {app_instance: tk-multi-publish, name: Publish...}
   #
   # -------------------------------------------------
@@ -690,7 +690,7 @@ engines:
         hook_copy_file: default
         hook_filter_publishes: default
         hook_filter_work_files: default
-        hook_scene_operation: '{self}/scene_operation_tk-maya.py'
+        hook_scene_operation: default
         launch_at_startup: false
         location:
           version: v0.7.28
@@ -712,9 +712,9 @@ engines:
       type: app_store
       name: tk-maya
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     - {app_instance: tk-multi-snapshot, name: Snapshot...}
-    - {app_instance: tk-multi-workfiles, name: Shotgun Save As...}
+    - {app_instance: tk-multi-workfiles2, name: File Save...}
     - {app_instance: tk-multi-publish, name: Publish...}
     template_project: asset_work_area_maya
     use_sgtk_as_menu_name: false
@@ -809,7 +809,7 @@ engines:
         hook_copy_file: default
         hook_filter_publishes: default
         hook_filter_work_files: default
-        hook_scene_operation: '{self}/scene_operation_tk-motionbuilder.py'
+        hook_scene_operation: default
         launch_at_startup: false
         location:
           version: v0.7.28
@@ -830,9 +830,9 @@ engines:
       type: app_store
       name: tk-motionbuilder
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     - {app_instance: tk-multi-snapshot, name: Snapshot...}
-    - {app_instance: tk-multi-workfiles, name: Shotgun Save As...}
+    - {app_instance: tk-multi-workfiles2, name: File Save...}
     - {app_instance: tk-multi-publish, name: Publish...}
     use_sgtk_as_menu_name: false
   #
@@ -984,7 +984,7 @@ engines:
         hook_copy_file: default
         hook_filter_publishes: default
         hook_filter_work_files: default
-        hook_scene_operation: '{self}/scene_operation_tk-nuke.py'
+        hook_scene_operation: default
         launch_at_startup: false
         location:
           version: v0.7.28
@@ -1037,9 +1037,9 @@ engines:
       type: app_store
       name: tk-nuke
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     - {app_instance: tk-multi-snapshot, name: Snapshot...}
-    - {app_instance: tk-multi-workfiles, name: Shotgun Save As...}
+    - {app_instance: tk-multi-workfiles2, name: File Save...}
     - {app_instance: tk-multi-publish, name: Publish...}
     bin_context_menu: []
     spreadsheet_context_menu: []
@@ -1107,7 +1107,7 @@ engines:
         hook_copy_file: default
         hook_filter_publishes: default
         hook_filter_work_files: default
-        hook_scene_operation: '{self}/scene_operation_tk-hiero.py'
+        hook_scene_operation: default
         launch_at_startup: false
         location:
           version: v0.7.28
@@ -1254,7 +1254,7 @@ engines:
       type: app_store
       name: tk-nuke
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     spreadsheet_context_menu: []
     timeline_context_menu: []
   #
@@ -1349,7 +1349,7 @@ engines:
         hook_copy_file: default
         hook_filter_publishes: default
         hook_filter_work_files: default
-        hook_scene_operation: '{self}/scene_operation_tk-photoshop.py'
+        hook_scene_operation: default
         launch_at_startup: false
         location:
           version: v0.7.28
@@ -1449,7 +1449,7 @@ engines:
         hook_copy_file: default
         hook_filter_publishes: default
         hook_filter_work_files: default
-        hook_scene_operation: '{self}/scene_operation_tk-softimage.py'
+        hook_scene_operation: default
         launch_at_startup: false
         location:
           version: v0.7.28
@@ -1470,9 +1470,9 @@ engines:
       type: app_store
       name: tk-softimage
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     - {app_instance: tk-multi-snapshot, name: Snapshot...}
-    - {app_instance: tk-multi-workfiles, name: Shotgun Save As...}
+    - {app_instance: tk-multi-workfiles2, name: File Save...}
     - {app_instance: tk-multi-publish, name: Publish...}
     template_project: asset_work_area_softimage
 

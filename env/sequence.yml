@@ -95,7 +95,7 @@ engines:
       type: app_store
       name: tk-maya
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     template_project:
     use_sgtk_as_menu_name: false
 
@@ -114,7 +114,7 @@ engines:
       type: app_store
       name: tk-motionbuilder
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     use_sgtk_as_menu_name: false
 
   #
@@ -134,7 +134,7 @@ engines:
       type: app_store
       name: tk-nuke
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     bin_context_menu: []
     spreadsheet_context_menu: []
     timeline_context_menu: []
@@ -175,7 +175,7 @@ engines:
       type: app_store
       name: tk-softimage
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     template_project:
 #
 ###############################################################################

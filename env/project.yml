@@ -211,7 +211,7 @@ engines:
       type: app_store
       name: tk-nuke
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     spreadsheet_context_menu:
     - {app_instance: tk-hiero-openinshotgun, keep_in_menu: false, name: Open in Shotgun,
       requires_selection: true}
@@ -289,7 +289,7 @@ engines:
       type: app_store
       name: tk-maya
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     template_project:
     use_sgtk_as_menu_name: false
 
@@ -308,7 +308,7 @@ engines:
       type: app_store
       name: tk-motionbuilder
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     template_project:
     use_sgtk_as_menu_name: false
 
@@ -329,7 +329,7 @@ engines:
       type: app_store
       name: tk-nuke
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     project_favourite_name: Shotgun Current Project
     use_sgtk_as_menu_name: false
     bin_context_menu: []
@@ -454,7 +454,7 @@ engines:
       type: app_store
       name: tk-nuke
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     spreadsheet_context_menu:
     - {app_instance: tk-hiero-openinshotgun, keep_in_menu: false, name: Open in Shotgun,
       requires_selection: true}
@@ -512,7 +512,7 @@ engines:
       type: app_store
       name: tk-softimage
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     template_project:
 #
 ###############################################################################

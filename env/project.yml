@@ -166,26 +166,29 @@ engines:
           name: tk-multi-snapshot
         template_snapshot: hiero_project_snapshot
         template_work: hiero_project_work
-      tk-multi-workfiles:
+      tk-multi-workfiles2:
         allow_task_creation: true
+        create_new_task_hook: default
+        custom_actions_hook: default
+        entities:
+        - caption: Projects
+          entity_type: Project
+          filters: []
+          hierarchy: [name]
         file_extensions: []
         hook_copy_file: default
         hook_filter_publishes: default
         hook_filter_work_files: default
         hook_scene_operation: default
         launch_at_startup: false
-        launch_change_work_area_at_startup: false
         location:
-          version: v0.7.1
+          name: tk-multi-workfiles2
           type: app_store
-          name: tk-multi-workfiles
+          version: v0.7.28
+        my_tasks_extra_display_fields: []
         saveas_default_name: scene
         saveas_prefer_version_up: false
-        sg_entity_type_extra_display_fields: {}
-        sg_entity_type_filters: {}
-        sg_entity_types: []
-        sg_task_filters: []
-        task_extra_display_fields: []
+        show_my_tasks: false
         template_publish: hiero_project_publish
         template_publish_area: hiero_project_publish_area
         template_work: hiero_project_work
@@ -409,26 +412,29 @@ engines:
           name: tk-multi-snapshot
         template_snapshot: hiero_project_snapshot
         template_work: hiero_project_work
-      tk-multi-workfiles:
+      tk-multi-workfiles2:
         allow_task_creation: true
+        create_new_task_hook: default
+        custom_actions_hook: default
+        entities:
+        - caption: Projects
+          entity_type: Project
+          filters: []
+          hierarchy: [name]
         file_extensions: []
         hook_copy_file: default
         hook_filter_publishes: default
         hook_filter_work_files: default
         hook_scene_operation: default
         launch_at_startup: false
-        launch_change_work_area_at_startup: false
         location:
-          version: v0.7.1
+          name: tk-multi-workfiles2
           type: app_store
-          name: tk-multi-workfiles
+          version: v0.7.28
+        my_tasks_extra_display_fields: []
         saveas_default_name: scene
         saveas_prefer_version_up: false
-        sg_entity_type_extra_display_fields: {}
-        sg_entity_type_filters: {}
-        sg_entity_types: []
-        sg_task_filters: []
-        task_extra_display_fields: []
+        show_my_tasks: false
         template_publish: hiero_project_publish
         template_publish_area: hiero_project_publish_area
         template_work: hiero_project_work

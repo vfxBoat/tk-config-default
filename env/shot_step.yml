@@ -1020,22 +1020,15 @@ engines:
           name: tk-multi-snapshot
         template_snapshot: hiero_project_snapshot
         template_work: hiero_project_work
-      tk-multi-workfiles:
       tk-multi-workfiles2:
         allow_task_creation: true
         create_new_task_hook: default
         custom_actions_hook: default
         entities:
-        - caption: Assets
-          entity_type: Task
-          filters:
-          - [entity, type_is, Asset]
-          hierarchy: [entity.Asset.sg_asset_type, entity, step, content]
-        - caption: Shots
-          entity_type: Task
-          filters:
-          - [entity, type_is, Shot]
-          hierarchy: [entity.Shot.sg_sequence, entity, step, content]
+        - caption: Projects
+          entity_type: Project
+          filters: []
+          hierarchy: [name]
         file_extensions: []
         hook_copy_file: default
         hook_filter_publishes: default
@@ -1049,7 +1042,7 @@ engines:
         my_tasks_extra_display_fields: []
         saveas_default_name: scene
         saveas_prefer_version_up: false
-        show_my_tasks: true
+        show_my_tasks: false
         template_publish: hiero_project_publish
         template_publish_area: hiero_project_publish_area
         template_work: hiero_project_work

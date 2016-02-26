@@ -284,7 +284,7 @@ engines:
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-workfiles2: '@workfiles2-launch-at-startup'
     compatibility_dialog_min_version: 2015
-    debug_logging: true
+    debug_logging: false
     location:
       version: v0.5.5
       type: app_store

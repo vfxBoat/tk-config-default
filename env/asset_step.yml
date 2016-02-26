@@ -113,7 +113,6 @@ engines:
           - [entity, type_is, Shot]
           hierarchy: [entity.Shot.sg_sequence, entity, step, content]
         file_extensions: []
-        create_new_task_hook: default
         hook_copy_file: default
         hook_filter_publishes: default
         hook_filter_work_files: default
@@ -225,7 +224,6 @@ engines:
           - [entity, type_is, Shot]
           hierarchy: [entity.Shot.sg_sequence, entity, step, content]
         file_extensions: []
-        create_new_task_hook: default
         hook_copy_file: default
         hook_filter_publishes: default
         hook_filter_work_files: default
@@ -333,7 +331,6 @@ engines:
           - [entity, type_is, Shot]
           hierarchy: [entity.Shot.sg_sequence, entity, step, content]
         file_extensions: []
-        create_new_task_hook: default
         hook_copy_file: default
         hook_filter_publishes: default
         hook_filter_work_files: default
@@ -690,7 +687,6 @@ engines:
           - [entity, type_is, Shot]
           hierarchy: [entity.Shot.sg_sequence, entity, step, content]
         file_extensions: []
-        create_new_task_hook: default
         hook_copy_file: default
         hook_filter_publishes: default
         hook_filter_work_files: default
@@ -810,7 +806,6 @@ engines:
           - [entity, type_is, Shot]
           hierarchy: [entity.Shot.sg_sequence, entity, step, content]
         file_extensions: []
-        create_new_task_hook: default
         hook_copy_file: default
         hook_filter_publishes: default
         hook_filter_work_files: default
@@ -986,7 +981,6 @@ engines:
           - [entity, type_is, Shot]
           hierarchy: [entity.Shot.sg_sequence, entity, step, content]
         file_extensions: []
-        create_new_task_hook: default
         hook_copy_file: default
         hook_filter_publishes: default
         hook_filter_work_files: default
@@ -1344,7 +1338,6 @@ engines:
           - [entity, type_is, Shot]
           hierarchy: [entity.Shot.sg_sequence, entity, step, content]
         file_extensions: []
-        create_new_task_hook: default
         hook_copy_file: default
         hook_filter_publishes: default
         hook_filter_work_files: default
@@ -1445,7 +1438,6 @@ engines:
           - [entity, type_is, Shot]
           hierarchy: [entity.Shot.sg_sequence, entity, step, content]
         file_extensions: []
-        create_new_task_hook: default
         hook_copy_file: default
         hook_filter_publishes: default
         hook_filter_work_files: default

@@ -692,7 +692,7 @@ engines:
           name: tk-multi-snapshot
         template_snapshot: mobu_shot_snapshot
         template_work: mobu_shot_work
-            tk-multi-workfiles2:
+      tk-multi-workfiles2:
         allow_task_creation: true
         create_new_task_hook: default
         custom_actions_hook: default
